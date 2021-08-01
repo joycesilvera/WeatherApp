@@ -24,6 +24,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link
+      href="https://websygen.github.io/owfont/css/owfont-regular.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>React App</title>
   </head>
   <body>
@@ -32,7 +37,7 @@
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
-
+s
       You can add webfonts, meta tags, or analytics to this file.
       The build step will place the bundled scripts into the <body> tag.
 
@@ -40,4 +45,18 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script type="text/javascript">
+    var currentTime = new Date().getHours();
+    if (7 <= currentTime && currentTime < 20) {
+      if (document.body) {
+        document.body.background =
+          "https://pbs.twimg.com/media/D0_SFy9XQAAijdO?format=jpg&name=large";
+      }
+    } else {
+      if (document.body) {
+        document.body.background =
+          "https://pbs.twimg.com/media/D0_SFy9XQAAijdO?format=jpg&name=large";
+      }
+    }
+  </script>
 </html>
